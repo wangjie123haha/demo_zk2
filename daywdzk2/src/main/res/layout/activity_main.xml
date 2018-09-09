@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.daywdzk2.ui.MainActivity">
+
+   <FrameLayout
+       android:id="@+id/fragm"
+       android:layout_width="match_parent"
+       android:layout_weight="9"
+       android:layout_height="0dp">
+   </FrameLayout>
+   <RadioGroup
+       android:id="@+id/rap"
+       android:layout_weight="1"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+       <RadioButton
+           android:id="@+id/rap1"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:text="首页"
+           android:button="@null"
+           android:gravity="center"
+           android:layout_width="0dp"
+           android:layout_height="match_parent" />
+       <RadioButton
+           android:id="@+id/rap2"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:text="附近"
+           android:button="@null"
+           android:gravity="center"
+           android:layout_width="0dp"
+           android:layout_height="match_parent" />
+       <RadioButton
+           android:id="@+id/rap3"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:text="我的"
+           android:button="@null"
+           android:gravity="center"
+           android:layout_width="0dp"
+           android:layout_height="match_parent" />
+   </RadioGroup>
+</LinearLayout>
